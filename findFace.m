@@ -2,6 +2,7 @@ function [scale xcoord ycoord]=findFace(img)
 if(size(img,3)>1)
     img = rgb2gray(img);
 end
+%scaling not handled
 diff=0;
 first = false;
     %for s=1:0.1:2
